@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  }
+  
+  .navbar {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+  }
+  
+  .home {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 19px;
+  cursor: pointer;
+  
+  }
+  .nav-home a {
+      color: inherit;
+      text-decoration: inherit;
+      
+  }
+  .menu-icon {
+    margin-left:10px ;
+    margin-top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .search-panel {
+  
+  display: flex;
+  margin-left: 90px;
+  height: 30px;
+  margin-top: 10px;
+  
+  }
+  
+  .search-icon {
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  
+  }
+  
+  .acc {
+    margin-left: 60px;
+    margin-top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .about-us {
+    margin-left: 100px;
+    margin-top:15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .main_content {
+    background-color: #2D3250;
+    background-size: cover;
+    height: 3000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  }
+  .Welcome {
+    color: #FF004D;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+  .div_one {
+    
+
+    
+    color: #80BCBD;
+    border: 2px solid greenyellow;
+    width: 80vw; /* 80% of the viewport width */
+    height: 40vh; /* 60% of the viewport height */
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    overflow-wrap: break-word;
+    overflow: auto;
+    padding-top: px;
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust width and height for smaller screens */
+    .container {
+        width: 90vw; /* 90% of the viewport width */
+        height: 50vh; /* 50% of the viewport height */
+    }
+  }
+
+  .div_one a {
+    color: #DC84F3;
+    text-decoration: inherit;
+    
+}
+
+.div_one h2 {
+  text-align: center;
+  color: #D63484;
+  font-family: Serif;
+}
+
+.div_one p {
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  font-family: arial,;
+}

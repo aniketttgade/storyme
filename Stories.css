@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  }
+
+
+  body {
+    background-color: #CADEFC;
+    overflow-x: hidden;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  }
+    
+  .navbar {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+
+  .home {
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 700;
+
+  }
+
+  .home a{
+    text-decoration: inherit;
+    color: inherit;
+  }
+.search-panel i {
+  margin-left: 5px;
+  
+  cursor: pointer;
+  margin-top: 8px;
+  
+}
+  .search-panel {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    border-radius: 25px;
+    border: 3px solid black;
+  }
+input {
+  border: 0px;
+  
+  outline: 0px;
+  background-color: aqua;
+  margin-bottom: 10px;
+}
+
+
+.favorites {
+  margin-top: 15px;
+  margin-left: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+.saved {
+  margin-left: 6px;
+  margin-top: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/**Main content**/
+.Adventure_Stories_div {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.adventure_stories_all_box {
+    border: 2px solid black;
+    height: 320px;
+    width: 70%;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    display: flex;  
+    
+}
+
+.stories_imgs {
+  background-image: url(treasure-islant-robert.jpg);
+  height: 295px;
+  width: 240px;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  
+  background-size: cover;
+  
+}
+.story-main {
+  text-align: center;
+  margin-left: 140px;
+  width: 500px;
+ cursor: pointer; 
+
+}
+.story-main h1 {
+  margin-top: 20px;
+  color: #7F27FF;
+}
+
+.story-main p {
+  color: #0F1035;
+  font-weight: 500;
+  margin-top: 15px;
+}
