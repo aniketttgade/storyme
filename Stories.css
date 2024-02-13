@@ -115,6 +115,7 @@ input {
 }
 
 .story-main p {
+  font-size: 15px;
   color: #0F1035;
   font-weight: 500;
   margin-top: 15px;
